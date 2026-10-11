@@ -1,0 +1,6 @@
+{
+  "name": "SYS-TF",
+  "description": "Sistema integral de gestión comercial, inventario, ventas POS, finanzas y compras.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "users": {
+      "fields": {
+        "email": { "type": "string" },
+        "fullName": { "type": "string" },
+        "role": { "type": "string" },
+        "isAdmin": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "products": {
+      "fields": {
+        "name": { "type": "string" },
+        "sku": { "type": "string" },
+        "salePrice": { "type": "number" },
+        "costPrice": { "type": "number" },
+        "stockQuantity": { "type": "number" }
+      }
+    },
+    "sales": {
+      "fields": {
+        "saleNumber": { "type": "string" },
+        "totalAmount": { "type": "number" },
+        "dateFormatted": { "type": "string" }
+      }
+    }
+  }
+}
